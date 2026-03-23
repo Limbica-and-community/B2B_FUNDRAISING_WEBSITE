@@ -39,7 +39,7 @@ export function Navbar() {
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 80 }}>
           {/* Logo */}
           <div style={{ display: "flex", alignItems: "center" }}>
-            <img src="/limbica_high_res_transparent.png" alt="Limbica Logo" style={{ width: 260, height: "auto", objectFit: "contain" }} />
+            <img src={`${import.meta.env.BASE_URL}limbica_high_res_transparent.png`} alt="Limbica Logo" style={{ width: 260, height: "auto", objectFit: "contain" }} />
           </div>
 
           {/* Desktop Nav */}

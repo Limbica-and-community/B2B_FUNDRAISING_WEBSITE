@@ -126,13 +126,13 @@ export function SolutionSection() {
             opacity: 0.95
           }}>
             <img
-              src="/logo_charlasana.png"
+              src={`${import.meta.env.BASE_URL}logo_charlasana.png`}
               alt="Charlasana Logo"
               style={{ height: "240px", objectFit: "contain" }}
             />
             <div style={{ width: "2px", height: "180px", background: "rgba(255,255,255,0.15)" }} />
             <img
-              src="/logo_heimdallanalytica.png"
+              src={`${import.meta.env.BASE_URL}logo_heindallanalytica.png`}
               alt="Heimdall Analitica Logo"
               style={{ height: "240px", objectFit: "contain" }}
             />
